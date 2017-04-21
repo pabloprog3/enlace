@@ -16,3 +16,12 @@
   <input type="radio" [(ngModel)]=Mostrar [value]=false name="redio"> Ocultar
 <br>
    <a [href] ="nombre" *ngIf="Mostrar"> {{nombre}}   </a>
+
+<br>
+
+  <input type=Button [(ngModel)]=Dato (click)="Dato=Dato+1" />
+
+<br>
+  <img src="path" [ngStyle]="{'top.px': Dato}" style="position:absolute; width:80px" /> <!--[NgStyle]="{'top.px' : Dato}" /> -->
+
+  <br>

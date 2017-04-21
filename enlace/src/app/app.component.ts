@@ -8,7 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
   nombre = 'www.google.com.ar';
-  Mostrar = false; 
+  Mostrar = false;
+  Dato = 0;
+  path = "../assets/img/a.jpg";
+
 //mostrar nombre por consola con funcion
  mostrarNombre(){ 
     console.info(this.nombre);
